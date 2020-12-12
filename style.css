@@ -33,7 +33,7 @@ margin-bottom: 4%;
 padding-bottom: 5%;
 }
 label{
-	font-size:30px !important;
+	font-size:20px !important;
 	font-weight:bold;
 h1{
 padding-top: 2%;
@@ -42,6 +42,7 @@ font-family: Arial;
 input{
 border-radius: 5px;
 outline: none;
+height:4%;
 border:none;
 }
 textarea{
