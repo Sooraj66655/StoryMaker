@@ -1,0 +1,87 @@
+
+/****************************************Index Page Css***********************************************/
+body{
+background-color: #EC8B07;
+height: auto;
+}
+header{
+text-align: center;
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+height: 25%;
+background-color: #fff;
+border-radius: 20px;
+}
+hr{
+line-height: 3px;
+margin-bottom: 2%;
+}
+img{
+text-align: center;
+width: 30%;
+}
+.form{
+text-align: center;
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+height: 40%;
+background-color: #F5D8B0;
+border-radius: 20px;
+margin-bottom: 4%;
+padding-bottom: 5%;
+}
+h1{
+padding-top: 2%;
+font-family: Arial;
+}
+input{
+border-radius: 5px;
+outline: none;
+border:none;
+}
+textarea{
+width: 40%;
+border: 3px solid #155AFA;
+}
+button{
+height: 100% !important;
+padding: 1%;
+border-radius: 5%;
+border: none;
+outline: none;
+}
+.value{
+text-decoration: underline;
+font-weight: bold;
+}
+h2{
+padding-top: 5%;
+}
+
+/*************************************************Story Page Css***********************************************/
+.story{
+text-align: center;
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+height: 40%;
+background-color: #F5D8B0;
+border-radius: 20px;
+margin-bottom: 4%;
+padding-bottom: 4%;
+}
+p{
+margin-left: 5%;
+margin-right: 5%;
+}
+.moral{
+padding-bottom: 3%;
+}
+.btn{
+	background-color: transparent;
+	color: blue;
+	text-decoration: underline;
+	font-size: 16px;
+}

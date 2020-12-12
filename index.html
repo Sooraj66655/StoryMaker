@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Story Telling Web App Task-11
+        </title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" width="120" height="120" alt="logo">
+        </header>
+        <section class="form">
+            <h1>
+                Complete the Form -
+                <br>
+                Complete the Story
+            </h1>
+            <hr>
+            <form name="form1" action="story.html" method="get">
+                <label>Animal: </label>
+                <input type="text" name="animal" id="animal">
+                <br>
+                <br>
+                <label>Another Animal: </label>
+                <input type="text" name="anotheranimal" id="anotheranimal">
+                <br>
+                <br>
+                <label>One More Animal: </label>
+                <input type="text" name="moreanimal" id="moreanimal">
+                <br>
+                <br>
+                <label>Adjective(past tanse): </label>
+                <input type="text" name="adjective" id="adjective">
+                <br>
+                <br>
+                <label>Verb(End in -ing): </label>
+                <input type="text" name="verb" id="verb">
+                <br>
+                <br>
+                <label>Number: </label>
+                <input type="number" name="number" id="number">
+                <br>
+                <br>
+                <label>Yes or No:</label>
+                &nbsp;&nbsp;
+                <input type="radio" name="agree" value="Yes" onclick="ans(this.value)" >
+                <label>Yes</label>
+                <input type="radio" name="agree" value="No" onclick="ans(this.value)" >
+                <label >No</label>
+                <br>
+                <label>Relative Speed(ends in -er):</label>
+                <select id="relativespeed">
+                    <option value="Quiker">Quiker</option>
+                    <option value="Slower">Slower</option>
+                </select>
+                <br>
+                <br>
+                <label>Motivational Quote: </label>
+                <input type="text" name="motivationquote" id="motivationquote">
+                <br>
+                <br>
+                <label>Meaningful Message:</label>
+                <br>
+                <br>
+                <textarea placeholder="Meaningful Message..." rows="7" name="message" id="message"></textarea>
+                <br>
+                <button name="storybtn" onclick="storyBind();">Form My Story!</button>
+            </form>
+        </section>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
