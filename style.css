@@ -32,6 +32,8 @@ border-radius: 20px;
 margin-bottom: 4%;
 padding-bottom: 5%;
 }
+label{
+	font-size:30px;
 h1{
 padding-top: 2%;
 font-family: Arial;
