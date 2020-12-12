@@ -13,6 +13,9 @@ height: 25%;
 background-color: #fff;
 border-radius: 20px;
 }
+label{
+	font-size: 20px !important;
+}
 hr{
 line-height: 3px;
 margin-bottom: 2%;
@@ -32,17 +35,14 @@ border-radius: 20px;
 margin-bottom: 4%;
 padding-bottom: 5%;
 }
-label{
-	font-size:20px !important;
-	font-weight:bold;
 h1{
 padding-top: 2%;
 font-family: Arial;
 }
 input{
+height: 6% !important;
 border-radius: 5px;
 outline: none;
-height:4%;
 border:none;
 }
 textarea{
